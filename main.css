@@ -1,0 +1,160 @@
+/** Top Nav Bar */
+
+.top-nav {
+  overflow: hidden;
+  display: block;
+  width: 100%;
+}
+
+.top-nav-right {
+  float: right;
+}
+
+.top-nav ul {
+  list-style-type: none;
+  margin: -5px;
+  padding: 15px;
+  height: 15px;
+}
+
+.top-nav li {
+  float: left;
+}
+
+.top-nav a {
+  display: block;
+  padding: 5px;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0.75;
+}
+
+.top-nav a:hover {
+  text-decoration: underline;
+  opacity: 100%;
+}
+
+.app-grid {
+  height: 20px;
+  padding-right: 10px;
+  opacity: 0.75;
+  /* margin: -10px 0; */
+}
+
+#sign-in {
+  text-decoration: white;
+  color: white;
+  background-color: #1bdde4;
+  border-color: white;
+  border-width: 1px;
+  border-radius: 5px;
+  opacity: 1;
+}
+
+/* Middle page navigation bar */
+
+.center {
+  display: block;
+  text-align: center;
+}
+
+.logo {
+  margin-top: 130px;
+}
+
+/* Search Bar */
+
+.search {
+  display: flex;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(128, 128, 128, 0.301);
+  border-radius: 24px;
+  width: 475px;
+  height: 45px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.search img {
+  height: 20px;
+  padding: 12px;
+}
+
+.search input {
+  border-style: none;
+  width: 380px;
+  border: none;
+  outline: none;
+}
+
+/** Bottom search buttons*/
+
+.search-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.search-button button {
+  cursor: pointer;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  opacity: 0.75;
+}
+
+.search-buttons button:hover {
+  color: black;
+  opacity: 1;
+  border-style: solid;
+  border-width: 0.25px;
+}
+
+/** Footer Bar*/
+
+.footer {
+  overflow: hidden;
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 40px;
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  bottom: 0;
+}
+
+.footer ul {
+  list-style-type: none;
+  margin: -10px 0px 0px -10px;
+  padding: 15px 20px 5px 20px;
+  font-size: 14px;
+  height: 15px;
+  opacity: 0.75;
+}
+
+.footer li {
+  float: left;
+}
+
+.footer a {
+  display: block;
+  padding: 8px;
+  background-color: ;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  text-decoration: none;
+  opacity: 0.75;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(0, 0, 0);
+}
+
+.footer-right {
+  float: right;
+}
